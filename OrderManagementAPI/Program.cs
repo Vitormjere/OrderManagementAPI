@@ -8,7 +8,10 @@ builder.Services.AddControllers();
 
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowReactApp", policy => {
-        policy.WithOrigins("http://localhost:5173")
+        policy.WithOrigins(
+                "http://localhost:5173",
+                "https://order-management-frontend-tan.vercel.app"
+              )
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
