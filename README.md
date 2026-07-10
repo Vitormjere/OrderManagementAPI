@@ -8,7 +8,7 @@ Demo: https://ordermanagement-api-vitor-fpcphmf5ejaretc0.brazilsouth-01.azureweb
 
 ## About the project
 
-API for managing products, customers, and orders. When an order is created, the system checks if there's enough stock available, automatically deducts the quantity from the product, and "freezes" the unit price at the moment of purchase — so if the product's price changes later, past orders stay accurate.
+API for managing products, customers, and orders. When an order is created, the system checks if there's enough stock available, automatically deducts the quantity from the product, and "freezes" the unit price at the moment of purchase, so if the product's price changes later, past orders stay accurate.
 
 ## Stack
 
@@ -28,11 +28,11 @@ API for managing products, customers, and orders. When an order is created, the 
 
 ## Endpoints
 
-**Products** — `GET/POST /api/products`, `GET/PUT/DELETE /api/products/{id}`
+**Products** - `GET/POST /api/products`, `GET/PUT/DELETE /api/products/{id}`
 
-**Customers** — `GET/POST /api/customers`, `GET/PUT/DELETE /api/customers/{id}`
+**Customers** - `GET/POST /api/customers`, `GET/PUT/DELETE /api/customers/{id}`
 
-**Orders** — `GET/POST /api/orders`, `GET/DELETE /api/orders/{id}`, `PUT /api/orders/{id}/status`
+**Orders** - `GET/POST /api/orders`, `GET/DELETE /api/orders/{id}`, `PUT /api/orders/{id}/status`
 
 ## Running locally
 
